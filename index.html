@@ -1,0 +1,254 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="input.css">
+<link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/4f6815444f.js" crossorigin="anonymous"></script>
+<script  src="main.js" defer></script>
+<title>Flautas Originais</title>
+  </head>
+<body class="min-h-screen bg-slate-50 dark:bg-gray-900 dark:text-white"> 
+<div class="page-wrapper">
+
+<!-- COMEÇO BARRA DE NAVEGACAO-->
+
+  <header class="bg-blue-700 text-white sticky top-0 z-10" id="header">
+    <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
+      <div class="flex gap-1 items-center justify-center">
+        <img class="float-left w-10 text-white" id="header-img" src="flauta2.png" alt="whistle logo" title="logo da flauta" ></img> </br> 
+        <h1 class=" text-2xl sm:text-3xl font-sans font-semibold">
+      <a href="#hero">Flautas Originais </a>
+    </h1> 
+    </div>
+        <button
+            id="hamburger-button"
+            class="text-3xl sm:hidden cursor-pointer">
+            &#9776;
+        </button>
+        <nav class="hidden sm:block space-x-8">
+          <a class=" hoover:text-white" href="#qualidades">Características</a>
+          <a class=" hoover:text-white font-medium" href="#preços">Preços</a>
+          <a class=" hoover:text-white font-medium" href="#testemunhas">Testemunhas</a>
+          <a class=" hoover:bg-white" href="#contato">Contato</a>
+        </nav>
+    </section>
+    <section id="mobile-menu" class="absolute top-0 bg-black w-full text-5xl flex-col justify-center origin-top animate-open-menu hidden">
+              <button class="text-8xl self-end px-6">
+                &times;
+              </button>
+        <nav class="flex flex-col min-h-screen items-center py-8 arial-label:mobile">
+              <a href="#hero" class="w-full text-center  py-6 hover:opacity-90">Tela Inicial</a>
+              <a href="#qualidades" class="w-full text-center  py-6 hover:opacity-90">Características</a>
+              <a href="#preços" class="w-full text-center  py-6 hover:opacity-90">Preços</a>
+              <a href="#testemunhas" class="w-full text-center  py-6 hover:opacity-90">Testemunhas</a>
+              <a href="#contatos" class="w-full text-center  py-6 hover:opacity-90">Contato</a>
+        </nav>
+    </section>
+    </header>
+
+    <!-- FIM DA BARRA DE NAVEGACAO-->
+
+
+<main class="max-w-4xl mx-auto">
+
+     <!-- COMEÇO SESSAO DE INSCRICAO-->
+
+
+  <section id="hero" class="max-w-4xl mx-auto p-4 flex justify-center align-middle items-center widescreen:section-min-height tallscreen:section-min-height">
+<article id="qualidades" class="max-w-4xl mx-auto">
+  <h2 id="titulo" class="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left dark:text-white mt-3 mx-auto leading-none sm:mt-6">
+      Trabalho 
+    <span class="text-indigo-700 dark:text-blue-300">Artesanal </span>de ótima <span class="text-indigo-700 dark:text-blue-300">
+      Qualidade</span> 
+  </h2>
+
+</article>
+  </section>
+
+  <div class="w-full max-w-6xl my-0 mx-auto">
+
+<!--SESSÃO DAS QUALIDADES -->
+<section class="box-border widescreen:section-min-height tallscreen:section-min-height" id="qualidades" style="margin-top: 20px; "> 
+    
+  <div class="flex ml-3 gap-3"> 
+  <div class="flex items-center justify-center h-32 w-20"> 
+    <i class="fa-solid fa-gear fa-3x"></i>
+  </div>
+    <div class="flex flex-col justify-center h-32  p-0 " id="materiais-disc"> 
+    <h3 class="font-times font-bold box-border text-1xl" id="materiais-title">Matéria Prima Premium</h3>
+    <p class="">Nossas flautas utilizam o melhor e mais brilhante aço encontrado no mundo, assegurando a sua longevidade.</p>   
+    </div>
+    </div>
+
+        <div class="flex ml-3 gap-3">
+          <div class="flex items-center justify-center h-32 w-20">
+            <i class="fa-regular fa-thumbs-up fa-3x"></i>
+          </div>
+            <div class="flex flex-col justify-center h-32 p-1" id="materiais-disc"> 
+            <h3 class=" font-sans font-bold text-1xl" id="materiais-title">Qualidade Assegurada</h3>
+            <p class="">Para cada compra feita, nós asseguramos que o seu produto estará em perfeitas condições.</p>
+            </div>
+            </div>
+
+        <div class="flex ml-3 gap-1">
+          <div class="flex items-center justify-center h-32 w-20">
+            <i class="fa-solid fa-truck fa-3x"></i>
+          </div>
+            <div class="flex flex-col justify-center h-32 p-1" id="materiais-disc"> 
+            <h3 class=" font-sans font-bold text-1xl" id="materiais-title">Envio Rápido</h3>
+            <p class="">Receba a sua flauta em pouquíssimo tempo. Nós oferecemos devolução gratuita caso o produto não agrade.</p>
+            </div>
+            </div>
+
+</section> 
+<!--FIM DA SESSAO DAS QUALIDADES -->
+<h2 class="italic text-2xl sm:text-3xl text-center align-center font-semibold mt-14">Você também pode tocar dessa forma: </h2>
+  <!--SESSAO DO VIDEO-->
+<section class="flex justify-center mb-10 mt-10 mx-auto w-full widescreen:section-min-height tallscreen:section-min-height">
+<iframe class="w-full mx-60 h-60" id="video" src="https://www.youtube.com/embed/8gJh7dM_ZAk" allowfullscreen="" frameborder="0"></iframe>
+</section>
+<!--FIM SESSAO DO VIDEO -->
+
+<!--<hr class="mx-auto bg-black dark:bg-white w-1/2">-->
+
+<!-- PREÇOS DAS NOSSAS FLAUTAS-->
+<section id="preços" classe="p-6 widescreen:section-min-height tallscreen:section-min-height">
+  <h2 class="text-3xl font-bold text-center sm:text-5xl mt-20 mb-6 text-black dark:text-white">Nossas Flautas</h2>
+
+  <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
+      <li 
+          class="max-w-xs sm:max-w-xs sm:w-full w-full sm:mx-auto flex flex-col items-center border border-solid border-black bg-white dark:bg-gray-900 rounded shadow-xl dark:border-gray-100">
+          <h2 class="text-3xl font-semibold text-center text-black bg-sky-200 w-full py-2">Flauta Doce</h2>
+          <div class="px-6 py-6 gap-5">
+              <p class="mb-2 sm:block text-2xl text-center mt-0 text-black font-semibold dark:text-white">$29,90</p>
+              <p class="p-1 text-xl text-center my-2 text-black dark:text-white">Embocadura em formato de bico.</p>
+              <p class="text-xl text-center my-2 text-black dark:text-white">Exige pouco esforço do flautista, podendo ser tocada por crianças.</p>
+              <p class="text-xl text-center my-2 text-black dark:text-white">Modelo de uso casual, excelente para aprendizagem.</p>
+              <button class="bg-blue-700 text-center flex justify-center items-center hover:bg-blue-900 active:bg-blue-500 text-white p-2 w-48 border border-solid border-slate-900 dark:border-none mx-auto font-semibold mt-5">COMPRAR</button>
+          </div>
+    </li>
+
+    <li 
+          class="max-w-xs sm:max-w-xs sm:w-full w-full sm:mx-auto flex flex-col items-center border border-solid border-black bg-white dark:bg-slate-900 rounded shadow-xl dark:border-gray-100">
+          <h2 class="text-3xl font-semibold text-center text-black bg-sky-200 w-full py-2">Flauta Bansuri</h2>
+          <div class="px-6 py-6 gap-5">
+              <p class="mb-2 sm:block text-2xl text-center mt-0 text-black font-semibold dark:text-white">$59,90</p>
+              <p class="p-1 text-xl text-center my-2 text-black dark:text-white">Flauta tradicional feita de Bambu.</p>
+              <p class="text-xl text-center my-2 text-black dark:text-white">Tamanho pode variar de 40 cm até cerca de um metro de comprimento.</p>
+              <p class="text-xl text-center my-2 text-black dark:text-white">Origem Indiana, com papel importante na cultura folclórica.</p>
+              <button class="bg-blue-700 text-center flex justify-center items-center hover:bg-blue-900 active:bg-blue-500 text-white p-2 w-48 border border-solid border-slate-900 dark:border-none mx-auto font-semibold mt-5">COMPRAR</button>
+            </div>
+    </li>
+
+    <li 
+          class="max-w-xs sm:max-w-xs sm:w-full w-full sm:mx-auto flex flex-col items-center border border-solid border-black bg-white dark:bg-slate-900 rounded shadow-xl dark:border-gray-100">
+          <h2 class="text-3xl font-semibold text-center text-black bg-sky-200 w-full py-2">Flauta Transversal</h2>
+          <div class="px-6 py-6 gap-5">
+              <p class="mb-2 sm:block text-2xl text-center mt-0 text-black font-semibold dark:text-slate-200">$89,90</p>
+              <p class="p-1 text-xl text-center my-2 text-black dark:text-white">Tocada de forma transversal, ou seja, de lado.</p>
+              <p class="text-xl text-center my-2 text-black dark:text-white">Tradicional no ocidente e comumente utilizada em consertos eruditas.</p>
+              <p class="text-xl text-center my-2 text-black dark:text-white">Modelo acoselhado para o uso profissional.</p>
+              <button class="bg-blue-700 text-center flex justify-center items-center hover:bg-blue-900 active:bg-blue-500 text-white p-2 w-48 border border-solid border-slate-900 dark:border-none mx-auto font-semibold mt-5">COMPRAR</button>
+            </div>
+    </li>
+  </ul>
+
+
+
+  <!--SESSÃO DAS TESTEMUNHAS-->
+<section id="testemunhas" class="p-6 widescreen:section-min-height tallscreen:section-min-height">
+        <h2 class="text-3xl font-bold text-center sm:text-5xl mt-2 text-slate-900 dark:text-white ">
+          Testemunhas
+        </h2>
+        <figure class="my-6">
+              <blockquote class="bg-sky-200 dark:bg-slate-900 pl-14 pr-8 py-12  rounded relative">
+                  <p  
+                      class="text-1xl sm:text-2xl text-left text-slate-800 dark:text-white before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-black before:opacity-25 before:transform before-translate-x-2 before:translate-y-2 
+                      after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-black after:opacity-25 after:transform after-translate-x-2 after:translate-y-2"> 
+                      Flautas Originais
+                        sempre estiveram lá
+                        por mim. A minha flauta chegou em uma caixa de madeira como esperado.
+                        Cliente vitalício! Experiência de compra 10/10.
+                    <!--Acme
+                        has always been there
+                        for me. Their Explorer rocket arrived in a wooden crate as expected.
+                        Life-long customer! A++ shopping experience.-->
+                  </p>
+              </blockquote>
+              <figcaption class="italic text-1xl sm:text-2xl text-right mt-2 text-slate-800 dark:text-white">
+                &#8212;Wile E. Coyote, Genius
+              </figcaption>
+        </figure>  
+
+        <figure class="my-12">
+          <blockquote class="bg-sky-200 dark:bg-slate-900 pl-14 pr-8 py-12  rounded relative">
+                  <p  
+                      class="text-1xl sm:text-2xl text-left mt-2 text-slate-800 dark:text-white before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-black before:opacity-25 before:transform before-translate-x-2 before:translate-y-2 
+                      after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-black after:opacity-25 after:transform after-translate-x-2 after:translate-y-2"> 
+                 A flauta produz um som espetacular. A minha família ficou muito impressionada quando toquei uma música para eles. <span class="italic">O som chamou a atenção da nossa cachorrinha, que ficou muito curiosa.</span> A qualidade no design é impressionante!
+                <!--The Acme Adventurer Rocket has thwarted my Illudium Q-36 Explosive Space Modulator on several
+                        occassions. <span class="italic">This makes me very, very angry!</span> Nevertheless, K-9
+                        and I have awarded Acme the
+                        Martian contract for space exploration rockets based on Acme's quality and sturdy designs.-->
+              </p>
+          </blockquote>
+          <figcaption class="italic text-1xl sm:text-2xl text-right mt-2 text-slate-800 dark:text-white">
+            &#8212;Marvin The Martian &amp; K-9
+          </figcaption>
+    </figure>
+
+    <figure class="my-12">
+      <blockquote class="bg-sky-200 dark:bg-slate-900 pl-14 pr-8 py-12  rounded relative">
+        <p  
+            class="text-1xl sm:text-2xl text-left mt-2 text-slate-800 dark:text-white before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-black before:opacity-25 before:transform before-translate-x-2 before:translate-y-2 
+            after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-black after:opacity-25 after:transform after-translate-x-2 after:translate-y-2"> 
+
+              Eu sabia que não apenas queria.&#8212; <span class="italic">Eu precisava</span> &#8212; de uma flauta da Flautas Originais para usar nos meus concertos. A flauta foi entregue em pouquíssimo tempo! <span class="italic">Palavras de um músico profissional: </span> como amo as flautas da Flautas Originais! 💯
+
+            <!-- I knew I not only wanted &#8212; <span class="italic">I needed</span> &#8212; Acme's Infinity
+                        Rocket for my mission in space. Acme delivered in one day! Nothing says <q class="italic">Take
+                            me
+                            to your leader</q> like Acme's Infinity Rocket! 💯-->
+          </p>
+      </blockquote>
+      <figcaption class="italic text-1xl sm:text-2xl text-right mt-2 text-slate-800 dark:text-white">
+        &#8212;Wolfgang Amadeus Mozart
+      </figcaption>
+</figure>
+</section>
+
+
+
+<section id="contato" class="p-6 my-12 scroll-mt-14 m-auto place-content-center align-middle widescreen:section-min-height tallscreen:section-min-height">
+      <h2 class="text-3xl font-bold text-center sm:text-4xl mb-6 text-slate-900 dark:text-white place-content-center">
+              Contate-nos
+      </h2>
+  <form action="" class="max-w-4xl mx-auto text-2x1 sm:text-3x1 flex flex-col items-left gap-4">
+        <label for="Assunto: " class="text-1xl" required>Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required required-minlength="3" maxlength="60" placeholder="Assunto" class="w-full text-black text-lg sm:text-1xl p-2  border border-solid border-black dark:border-none"/>
+          <label for="message" class="text-1xl">Mensagem:</label>
+            <textarea name="message" cols="20" rows="5" placeholder="Sua Mensagem" required class="w-full text-black text-lg sm:text-1xl p-2 border border-solid border-slate-900 dark:border-none"></textarea>
+  <button class="bg-blue-700 hover:bg-blue-900 active:bg-blue-500 text-white p-2 w-48 border border-solid border-slate-900 dark:border-none">Enviar</button>
+
+  </form>
+</section>
+
+
+  </main>
+
+  <footer class="bg-gray-200 dark:bg-gray-800 text-black text-xl p-5">
+<div class="flex justify-end box-border gap">
+      <a class="text-black dark:text-white p-2 " href="">Privacidade</a>
+      <a class="text-black dark:text-white p-2" href="">Termos</a>
+      <a class="text-black dark:text-white p-2" href="">Contato</a>
+</div>
+<span class="flex justify-end text-slate-400 mt-1">
+  PÁGINA FICTÍCIA 2023, Nikodem Kowal
+  </span>
+    </footer>
+
+	</div>
+</body>
+  </html>
